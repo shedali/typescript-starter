@@ -1,0 +1,20 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "esno src/cli.ts",
+    "build": "tsup src/index.ts --format cjs, esm --dts"
+  },
+  "keywords": [],
+  "author": "Franz Sittampalam",
+  "license": "ISC",
+  "devDependencies": {
+    "esno": "*",
+    "tsup": "*",
+    "typescript": "^4.9.5"
+  }
+}
