@@ -6,7 +6,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "esno src/cli.ts",
+    "dev": "tsc-watch src/index.ts",
     "build": "tsup src/index.ts --format cjs, esm --dts"
   },
   "keywords": [],
